@@ -121,7 +121,7 @@
       if(isFunction(handlers.onComplete))
         handlers.onComplete();
       
-        if(Promise)
+      if(Promise)
         return Promise.resolve()
     }
 
